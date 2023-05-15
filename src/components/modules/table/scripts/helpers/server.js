@@ -1,19 +1,21 @@
+const url = 'https://bawande.github.io/test-project-products-table/data/';
+
 async function getServerAllProducts() {
-  const response = await fetch('../data/dataProducts.json');
+  const response = await fetch(`${url}dataProducts.json`);
   const data = await response.json();
 
   return data;
 }
 
 async function getServerOptionsDataTable() {
-  const response = await fetch('../data/optionsDataTable.json');
+  const response = await fetch(`${url}optionsDataTable.json`);
   const data = await response.json();
 
   return data;
 }
 
 async function getServerOptionsResultTable() {
-  const response = await fetch('../data/optionsResultTable.json');
+  const response = await fetch(`${url}optionsResultTable.json`);
   const data = await response.json();
 
   return data;

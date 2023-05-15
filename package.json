@@ -2,7 +2,7 @@
   "name": "opt6",
   "version": "1.0.0",
   "description": "Test project",
-  "homepage": "",
+  "homepage": "https://Bawande.github.io/test-project-products-table",
   "scripts": {
     "dev": "gulp watch",
     "build:dev": "gulp build",
