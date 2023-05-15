@@ -1,0 +1,61 @@
+.result-table {
+  display: block;
+  width: 304px;
+  height: auto;
+  margin-right: 15px;
+  margin-left: auto;
+
+  font-size: 14px;
+  font-family: MyriadPro;
+  line-height: 1;
+
+  &__general-list,
+  &__resulting-list {
+    margin-bottom: 5px;
+    padding: 15px;
+
+    background-color: #fbfcfd;
+    border: solid 1px #eeeff1;
+    border-radius: 5px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__general-item,
+  &__resulting-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__general-lable {
+    color: #8f8f8f;
+  }
+
+  &__general-total {
+    color: #000;
+    font-size: 15px;
+  }
+
+  &__resulting-lable {}
+
+  &__resulting-total {
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: $tablet-max-width) {
+  .result-table {
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

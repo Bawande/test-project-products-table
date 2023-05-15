@@ -1,0 +1,46 @@
+.table-header {
+  &__column {
+    position: relative;
+    border: 1px solid #eeeff1;
+    padding: 8px 0px 12px 10px;
+    font-weight: 600;
+    text-align: start;
+
+    &[draggable] {
+      cursor: grab;
+    }
+  }
+
+  &__content {
+    &::after {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      bottom: 5px;
+      left: 5px;
+
+      background: transparent;
+      opacity: 1;
+
+      content: '';
+    }
+  }
+
+
+  &__resizer {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 5px;
+
+    cursor: col-resize;
+
+    user-select: none;
+  }
+
+  &__resizer:hover {
+    border-right: 2px solid $theme-grey-25;
+  }
+
+}

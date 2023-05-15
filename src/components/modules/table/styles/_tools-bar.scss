@@ -1,0 +1,26 @@
+.tools-table {
+  display: flex;
+
+  &__add-row {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  &__add-row::before {
+    content: '';
+    display: inline-block;
+
+    width: 11px;
+    height: 11px;
+
+    margin-right: 7px;
+
+    background-image: url('../images/ico-toolber-add.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  &__save-change {}
+}

@@ -1,0 +1,65 @@
+@media (max-width: $tablet-max-width) {
+  .table-body {
+    &__row {
+      display: block;
+      border-radius: 10px;
+      padding: 15px 15px 25px;
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.07);
+      border: solid 1px #eeeff1;
+      background-color: #fff;
+      margin-bottom: 5px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__temp-row {}
+
+    &__temp-item {}
+
+    &__lable {
+      margin-bottom: 5px;
+    }
+
+    &__column {
+      display: block;
+      padding: 0;
+      margin-bottom: 15px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &__content {
+      position: static;
+    }
+
+    &__capture {
+      &::after {}
+    }
+
+    &__autocomplete-wrapper {}
+
+    &__autocomplete-list {
+      position: static;
+    }
+
+
+    &__autocomplete-item {
+      &>strong {}
+
+      &:hover,
+      &.active {}
+    }
+
+    &__actions-button {
+      &::after {}
+    }
+
+    &__actions-list {}
+
+    &__actions-item {}
+  }
+}

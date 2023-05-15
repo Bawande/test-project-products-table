@@ -1,0 +1,220 @@
+[
+  {
+    "id": 0,
+    "key": "index",
+    "type": "SYSTEM",
+    "columnOptions": {
+      "title": "Номер",
+      "lable": "Номер",
+      "validated": "",
+      "width": "48px",
+      "isAutocomplete": false,
+      "isDisplay": true,
+      "isAlwaysVisible": true,
+      "isResize": false,
+      "isDraggable": false,
+      "isEditable": false,
+      "mediaQuery": [
+        "desktop"
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "key": "action",
+    "type": "SYSTEM",
+    "columnOptions": {
+      "title": "Д",
+      "lable": "Действие",
+      "validated": "",
+      "width": "22px",
+      "isAutocomplete": false,
+      "isDisplay": true,
+      "isAlwaysVisible": true,
+      "isResize": false,
+      "isDraggable": false,
+      "isEditable": false,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "key": "longName",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Наименование еденицы",
+      "lable": "Наименование еденицы",
+      "validated": "text",
+      "width": 2.85,
+      "isAutocomplete": true,
+      "isDisplay": true,
+      "isAlwaysVisible": true,
+      "isResize": true,
+      "isDraggable": true,
+      "isEditable": true,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "key": "price",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Цена",
+      "lable": "Цена",
+      "validated": "number",
+      "width": 1,
+      "isAutocomplete": false,
+      "isDisplay": true,
+      "isAlwaysVisible": true,
+      "isResize": true,
+      "isDraggable": true,
+      "isEditable": true,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "key": "quantity",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Кол-во",
+      "lable": "Кол-во",
+      "validated": "number",
+      "width": 1,
+      "isAutocomplete": false,
+      "isDisplay": true,
+      "isAlwaysVisible": true,
+      "isResize": true,
+      "isDraggable": true,
+      "isEditable": true,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "key": "shortName",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Название товара",
+      "lable": "Название товара",
+      "validated": "text",
+      "width": "10%",
+      "isAutocomplete": true,
+      "isDisplay": true,
+      "isAlwaysVisible": false,
+      "isResize": true,
+      "isDraggable": true,
+      "isEditable": true,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "key": "weight",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Вес",
+      "lable": "Вес",
+      "validated": "",
+      "width": 0.63,
+      "isAutocomplete": false,
+      "isDisplay": false,
+      "isAlwaysVisible": false,
+      "isResize": true,
+      "isDraggable": true,
+      "isEditable": true,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "key": "shippingСost",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Цена доставки, руб",
+      "lable": "Цена доставки, руб",
+      "validated": "number",
+      "width": "10%",
+      "isAutocomplete": false,
+      "isDisplay": false,
+      "isAlwaysVisible": false,
+      "isResize": true,
+      "isDraggable": true,
+      "isEditable": false,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 9,
+    "key": "maxCapacity",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Max грузоподъемность, кг",
+      "lable": "Max грузоподъемность, кг",
+      "validated": "number",
+      "width": 1,
+      "isAutocomplete": false,
+      "isDisplay": false,
+      "isAlwaysVisible": false,
+      "isResize": true,
+      "isDraggable": true,
+      "isEditable": true,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "key": "total",
+    "type": "DATA",
+    "columnOptions": {
+      "title": "Итого",
+      "lable": "Итого",
+      "validated": "",
+      "width": 0.63,
+      "isAutocomplete": false,
+      "isDisplay": true,
+      "isAlwaysVisible": true,
+      "isResize": true,
+      "isDraggable": false,
+      "isEditable": true,
+      "mediaQuery": [
+        "desktop",
+        "tablet",
+        "mobile"
+      ]
+    }
+  }
+]

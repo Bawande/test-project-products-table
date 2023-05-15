@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- <head> -->
+@@include('./components/parts-pages/head.html', {"title": "opt6-table-goods" })
+<!-- </head> -->
+
+<body>
+
+  <section class="app">
+    <aside class="sidebar">
+      <nav class="sidebar-nav">
+        <!-- sidebar-nav list -->
+      </nav>
+    </aside>
+    <main class="main">
+      <header class="header">
+        <h1 class="header__title title title--h1">Проведение ТО и мелкий ремонт</h1>
+        <nav class="header__nav main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="#">Общее</a></li>
+            <li class="main-nav__item active"><a href="#">Товар списания</a></li>
+            <li class="main-nav__item"><a href="#">Доп. расходы</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="tools-bar">
+        <div id="id-toolbar"></div>
+      </div>
+      <div class="workspace-wrapper">
+        <div id="id-context-menu"></div>
+        <div id="id-table"></div>
+        <div id="id-result-table">
+        </div>
+
+      </div>
+    </main>
+  </section>
+
+  <!-- <script> -->
+  @@include('./components/parts-pages/scripts.html')
+  <!-- </script> -->
+</body>
+</html>

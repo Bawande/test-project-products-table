@@ -1,0 +1,11 @@
+archive/
+gulp/
+node_modules/
+
+package-lock.json
+
+src/components/@Template
+src/components/common
+src/components/temp
+src/vendor
+

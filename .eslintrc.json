@@ -1,0 +1,25 @@
+{
+  "extends": [
+
+    "airbnb-base"
+  ],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "comma-dangle": "warn",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "gulpfile.babel.js",
+          "gulp/**/*.js"
+        ]
+      }
+    ]
+  }
+}
