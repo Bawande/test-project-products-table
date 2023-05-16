@@ -104,6 +104,9 @@ class ProductTable {
         this.setDataProducts(dataProducts);
         this.setOptionDataTable(optionsDataTable);
         this.setOptionsResultTable(optionTotalTable);
+        this.initComponents();
+        window.addEventListener('resize', throttle(this.renderTable, 60));
+        this.render();
       })
       .catch((error) => {
         console.error(error, 'Error server data!');
@@ -112,11 +115,7 @@ class ProductTable {
         this.setDataProducts(products);
         this.setOptionDataTable(tableColumns);
         this.setOptionsResultTable(resultTableList);
-      })
-      .then(() => {
         this.initComponents();
-      })
-      .then(() => {
         window.addEventListener('resize', throttle(this.renderTable, 60));
         this.render();
       });
